@@ -28,7 +28,7 @@ function fish_prompt
 
   if [ (_git_branch_name) ]
 
-    if test (_git_branch_name) = 'master'
+    if test (_git_branch_name) = 'main'
       set -l git_branch (_git_branch_name)
       set git_info "$normal git:($red$git_branch$normal)"
     else
@@ -112,7 +112,7 @@ alias unlock='sudo rm /var/lib/pacman/db.lck' #Remove Pacman Lock
 
 # ls Commands
 alias la='ls -a'
-alias ll='ls -al'
+alias ll='ls -alh'
 
 #Interactive Commands
 alias rm='trash -v'
@@ -133,3 +133,8 @@ alias cat=bat
 alias icat='kitten icat'
 alias kd='kitten diff'
 alias kc='kitten clipboard'
+
+#Emacs
+fish_add_path ~/.config/emacs/bin
+alias emacs="emacsclient -c -a 'emacs'"
+

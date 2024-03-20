@@ -69,7 +69,7 @@ alias unlock='sudo rm /var/lib/pacman/db.lck' #Remove Pacman Lock
 
 # ls Commands
 alias la='ls -a'
-alias ll='ls -al'
+alias ll='ls -alh'
 
 #Interactive Commands
 alias cp='cp -i'
@@ -93,3 +93,8 @@ alias kc='kitten clipboard'
 
 #Starship Prompt
 eval "$(starship init bash)"
+
+# Emacs Client and Server path
+export PATH="$HOME/.config/emacs/bin:$PATH"
+alias emacs="emacsclient -c -a 'emacs'"
+
