@@ -94,6 +94,7 @@ alias shutdown='sudo shutdown now'
 alias reboot='sudo reboot now'
 
 #Other Commands
+alias code=vscodium
 alias nf=neofetch
 alias ht=htop
 #alias vim=nvim
@@ -105,8 +106,8 @@ alias icat='kitten icat'
 alias kd='kitten diff'
 alias kc='kitten clipboard'
 
-#Starship Prompt
-eval "$(starship init bash)"
-
 #Zoxide Configuration
 eval "$(zoxide init bash)"
+
+#Starship Prompt
+eval "$(starship init bash)"
