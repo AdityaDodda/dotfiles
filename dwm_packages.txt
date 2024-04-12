@@ -33,11 +33,9 @@ gobject-introspection
 gparted
 grub
 gst-plugin-pipewire
-gtk3
 gvfs
 htop
 intel-ucode
-intellij-idea-community-edition
 iptables-nft
 jasper
 jdk
@@ -85,10 +83,10 @@ pipewire-jack
 pipewire-pulse
 postman-bin
 pycharm-community-edition
-python
 python-pip
 python-setuptools
 qemu-base
+reflector
 rofi
 rsync
 rust
@@ -112,8 +110,8 @@ vde2
 vim
 virt-manager
 virt-viewer
-visual-studio-code-bin
 vlc
+vscodium-bin
 warp-terminal
 wget
 wireplumber
@@ -174,4 +172,5 @@ xorg-xwud
 zathura
 zathura-pdf-mupdf
 zellij
+zip
 zoxide
