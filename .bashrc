@@ -77,6 +77,7 @@ alias gd='git diff'
 alias gb='git branch'
 alias gr='git restore'
 alias gp='git push'
+alias gl='git log'
 
 #ls Commands
 alias ls='eza --long --group-directories-first'
