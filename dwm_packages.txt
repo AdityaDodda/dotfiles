@@ -82,8 +82,6 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 postman-bin
-powerline
-powerline-fonts
 pycharm-community-edition
 python-pip
 python-setuptools
