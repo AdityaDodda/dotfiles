@@ -9,6 +9,10 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+### SHOPT
+shopt -s cmdhist # saves multi-line commands in history as single line
+shopt -s histappend # do not overwrite history
+
 ## Ignore upper and lowercase when TAB completion
 bind "set completion-ignore-case on"
 
