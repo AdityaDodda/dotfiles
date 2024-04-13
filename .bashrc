@@ -9,6 +9,9 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+## Ignore upper and lowercase when TAB completion
+bind "set completion-ignore-case on"
+
 ### ARCHIVE EXTRACTION ###
 # usage: ex <file>
 ex ()
@@ -112,3 +115,7 @@ eval "$(zoxide init bash)"
 
 #Starship Prompt
 eval "$(starship init bash)"
+
+# Bluetooth
+alias ssb="sudo systemctl start bluetooth"
+alias stb="sudo systemctl stop bluetooth"
