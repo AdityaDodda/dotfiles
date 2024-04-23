@@ -109,6 +109,7 @@ ttf-ms-fonts
 unrar
 unzip
 vde2
+vi
 vim
 virt-manager
 virt-viewer
