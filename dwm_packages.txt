@@ -1,3 +1,4 @@
+alacritty
 android-studio
 aria2
 base
@@ -16,6 +17,7 @@ cmake
 dmidecode
 dnsmasq
 docker
+dool
 dosfstools
 dracula-gtk-theme
 efibootmgr
@@ -113,8 +115,8 @@ vi
 vim
 virt-manager
 virt-viewer
+visual-studio-code-bin
 vlc
-vscodium-bin
 warp-terminal
 wget
 wireplumber

@@ -107,7 +107,6 @@ alias shutdown='sudo shutdown now'
 alias reboot='sudo reboot now'
 
 #Other Commands
-alias code=vscodium
 alias nf=neofetch
 alias ht=htop
 #alias vim=nvim
