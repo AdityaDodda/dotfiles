@@ -86,11 +86,6 @@ alias gr='git restore'
 alias gp='git push'
 alias gl='git log'
 
-#Systemctl Commands 
-alias ssst="sudo systemctl status"
-alias sss="sudo systemctl start"
-alias sst="sudo systemctl stop"
-
 #ls Commands
 alias ls='eza --long --group-directories-first'
 alias la='eza --long --all --group-directories-first'
