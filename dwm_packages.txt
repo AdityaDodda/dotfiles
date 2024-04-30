@@ -38,6 +38,7 @@ gst-plugin-pipewire
 gvfs
 htop
 intel-ucode
+intellij-idea-community-edition
 iptables-nft
 jasper
 jdk
