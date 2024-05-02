@@ -29,7 +29,6 @@ flac
 flameshot
 flatpak
 fzf
-geany
 gimp
 git
 gobject-introspection
