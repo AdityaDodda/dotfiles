@@ -37,6 +37,7 @@ grub
 gst-plugin-pipewire
 gvfs
 htop
+hyfetch
 intel-ucode
 intellij-idea-community-edition
 iptables-nft
@@ -64,7 +65,6 @@ mtools
 mupdf
 nano
 ncdu
-neofetch
 neovim
 network-manager-applet
 networkmanager
