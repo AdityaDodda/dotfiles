@@ -122,8 +122,8 @@ alias gr='git restore'
 alias gp='git push'
 
 # ls Commands
-alias ls='eza --long'
-alias la='eza --long --all'
+alias ls='eza'
+alias la='eza --all'
 alias ll='eza --long --header --icons --git --all'
 
 #Interactive Commands
