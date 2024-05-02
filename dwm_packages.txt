@@ -22,6 +22,7 @@ dosfstools
 dracula-gtk-theme
 efibootmgr
 eza
+fastfetch
 firefox
 fish
 flac
@@ -37,7 +38,6 @@ grub
 gst-plugin-pipewire
 gvfs
 htop
-hyfetch
 intel-ucode
 intellij-idea-community-edition
 iptables-nft
