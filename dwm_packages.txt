@@ -31,6 +31,7 @@ flatpak
 fzf
 gimp
 git
+go
 gobject-introspection
 gparted
 grub
@@ -65,6 +66,7 @@ mupdf
 nano
 ncdu
 neovim
+net-tools
 network-manager-applet
 networkmanager
 nitrogen
@@ -84,6 +86,7 @@ picom
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+postgresql
 postman-bin
 pycharm-community-edition
 python-pip

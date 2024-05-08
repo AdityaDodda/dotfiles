@@ -87,8 +87,8 @@ alias gp='git push'
 alias gl='git log'
 
 #ls Commands
-alias ls='eza --group-directories-first'
-alias la='eza --all --group-directories-first'
+alias ls='eza --long --group-directories-first'
+alias la='eza --long --all --group-directories-first'
 alias ll='eza --long  -g --header --icons --git --all --group-directories-first'
 alias lt='eza --tree'
 
