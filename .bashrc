@@ -92,10 +92,18 @@ alias la='eza --long --all --group-directories-first'
 alias ll='eza --long  -g --header --icons --git --all --group-directories-first'
 alias lt='eza --tree'
 
+#cd Commands
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
 #Interactive Commands
 alias cp='cp -i'
 alias rm='trash -v'
 alias mv='mv -i'
+alias pbcopy='xsel --input --clipboard'
+alias pbpaste='xsel --output --clipboard'
 
 #Power Commands
 alias shutdown='sudo shutdown now'
