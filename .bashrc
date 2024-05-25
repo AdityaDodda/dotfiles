@@ -9,7 +9,11 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-### SHOPT
+## HIST SIZE ##
+HISTSIZE=1000
+HISTFILESIZE=1000
+
+### SHOPT ###
 shopt -s cmdhist # saves multi-line commands in history as single line
 shopt -s histappend # do not overwrite history
 
