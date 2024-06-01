@@ -108,6 +108,7 @@ thorium-browser-bin
 thunar
 timeshift
 tldr
+tokyonight-gtk-theme-git
 trash-cli
 ttf-font-awesome
 ttf-ms-fonts
