@@ -98,12 +98,12 @@ alias ll='eza --long  -g --header --icons --git --all --group-directories-first'
 alias lt='eza --tree'
 
 #cd Commands
-alias .='cd ..'
-alias ..='cd ../..'
-alias ...='cd ../../..'
-alias ....='cd ../../../..'
-alias .....='cd ../../../../..'
-alias ......='cd ../../../../../..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias .......='cd ../../../../../..'
 
 #Interactive Commands
 alias cp='cp -i'
