@@ -1,0 +1,2 @@
+1) Volume Control (Pipewire)
+install pamixer package
