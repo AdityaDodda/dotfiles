@@ -122,10 +122,16 @@ alias ht=htop
 alias bt=bpytop
 alias man=batman
 alias cat=bat
+alias tb='thorium-browser'
+alias tbi='thorium-browser --incognito &'
 # To use bat like cat use p flag
 alias icat='kitten icat'
 alias kd='kitten diff'
 alias kc='kitten clipboard'
+
+# Nvm Configuration
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/share/nvm/init-nvm.sh" ] && \. "/usr/share/nvm/init-nvm.sh"
 
 #Zoxide Configuration
 eval "$(zoxide init bash)"
