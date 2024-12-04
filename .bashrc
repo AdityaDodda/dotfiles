@@ -129,10 +129,6 @@ alias icat='kitten icat'
 alias kd='kitten diff'
 alias kc='kitten clipboard'
 
-# Nvm Configuration
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/share/nvm/init-nvm.sh" ] && \. "/usr/share/nvm/init-nvm.sh"
-
 #Zoxide Configuration
 eval "$(zoxide init bash)"
 
