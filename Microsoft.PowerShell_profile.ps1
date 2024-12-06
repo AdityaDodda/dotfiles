@@ -27,6 +27,16 @@ function trash($path) {
     }
 }
 
+# Admin Terminal
+function admin {
+    if ($args.Count -gt 0) {
+        $argList = $args -join ' '
+        Start-Process wt -Verb runAs -ArgumentList "pwsh.exe -NoExit -Command $argList"
+    } else {
+        Start-Process wt -Verb runAs
+    }
+}
+
 # Quick File Creation
 function touch { param($name) New-Item -ItemType "file" -Path . -Name $name }
 
