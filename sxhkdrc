@@ -1,0 +1,58 @@
+# Reload functions
+super + Escape
+	"$XDG_CONFIG_HOME"/sxhkd/functions
+
+# BetterLockScreen
+super + shift + l
+    betterlockscreen -l
+
+# Launch Clipmenu
+super + v
+    clipmenu
+
+# Launch Thunar
+super + e
+     thunar
+
+# Launch Thorium
+super + shift + t
+     thorium-browser
+
+# Rofi
+# Rofi Applications Menu
+super + r
+     rofi -show drun
+
+# Rofi Commands Menu
+super + shift + r
+     rofi -show run
+
+# Rofi Window Menu
+super + w
+     rofi -show window
+
+# Pamixer Volume Control
+# Increase volume
+XF86AudioRaiseVolume
+    pamixer --increase 5
+
+# Decrease volume
+XF86AudioLowerVolume
+    pamixer --decrease 5
+
+# Mute/Unmute volume
+XF86AudioMute
+    pamixer --toggle-mute
+
+# Flameshot 
+#Capture Area
+alt + x
+    flameshot gui -p ~/Pictures/Screenshots
+
+# Capture Active Window
+alt + w
+    flameshot gui -w -p ~/Pictures/Screenshots
+
+# Capture Entire Screen
+alt + s
+    flameshot full -p ~/Pictures/Screenshots
