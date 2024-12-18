@@ -31,6 +31,7 @@ flatpak
 fzf
 gimp
 gobject-introspection
+google-chrome
 gparted
 grub
 gst-plugin-pipewire
