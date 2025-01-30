@@ -133,8 +133,6 @@ alias cat=bat
 alias lg=lazygit
 alias tb='thorium-browser'
 alias tbi='thorium-browser --incognito &'
-alias coab='conda activate base'
-alias cod='conda deactivate'
 # To use bat like cat use p flag
 alias icat='kitten icat'
 alias kd='kitten diff'
@@ -155,5 +153,21 @@ export NVM_DIR="$HOME/.nvm"
 #Yazi Configuration
 export EDITOR="nvim" # Sets the default editor for opening files
 
-# Clipmenu rofi config
+#Clipmenu rofi config
 export CM_LAUNCHER=rofi
+
+#Miniconda Configuration
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/aditya/miniconda3/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/aditya/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/aditya/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/aditya/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
