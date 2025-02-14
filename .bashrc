@@ -121,6 +121,7 @@ alias reboot='sudo reboot now'
 alias sss='sudo systemctl status'
 alias sst='sudo systemctl start'
 alias ssp='sudo systemctl stop'
+alias ssr='sudo systemctl restart'
 
 #Other Commands
 alias ff=fastfetch
@@ -138,24 +139,6 @@ alias icat='kitten icat'
 alias kd='kitten diff'
 alias kc='kitten clipboard'
 
-### EXPORTS ###
-#Zoxide Configuration
-eval "$(zoxide init bash)"
-
-#Starship Prompt
-eval "$(starship init bash)"
-
-#NVM Configuration
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-#Yazi Configuration
-export EDITOR="nvim" # Sets the default editor for opening files
-
-#Clipmenu rofi config
-export CM_LAUNCHER=rofi
-
 #Miniconda Configuration
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -171,3 +154,21 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+#NVM Configuration
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+### EXPORTS ###
+#Starship Prompt
+eval "$(starship init bash)"
+
+#Yazi Configuration
+export EDITOR="nvim" # Sets the default editor for opening files
+
+#Clipmenu rofi config
+export CM_LAUNCHER=rofi
+
+#Zoxide Configuration
+eval "$(zoxide init bash)"
