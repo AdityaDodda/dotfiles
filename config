@@ -1,0 +1,19 @@
+# The syntax is "key = value". The whitespace around the equals doesn't matter.
+#background = 282c34
+#foreground = ffffff
+background-opacity = 0.8
+# Comments start with a '#' and are only valid on their own line
+# Blank lines are ignored!!
+
+# Color Scheme
+theme = tokyonight
+
+# Keybindings
+keybind = shift+ctrl+r=reload_config
+keybind = shift+ctrl+h=new_split:left
+keybind = shift+ctrl+j=new_split:down
+keybind = shift+ctrl+k=new_split:up
+keybind = shift+ctrl+l=new_split:right
+
+# Empty values reset the configuration to the default value
+font-family = "JetBrainsMono Nerd Font"
