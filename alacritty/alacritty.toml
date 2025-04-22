@@ -1,23 +1,24 @@
-[ env ]
-TERM = "xterm-256color"
-
-[window]
-# padding.x = 10
-# padding.y = 10
-opacity = 0.8
-
-decorations = "Buttonless"
-
-[font]
-normal.family = "FiraCode Nerd Font"
-
-#regular
-size = 8
+# ┌──────────────────────────────────────┐
+# │ ░█▀█░█░░░█▀█░█▀▀░█▀▄░▀█▀░▀█▀░▀█▀░█░█ │
+# │ ░█▀█░█░░░█▀█░█░░░█▀▄░░█░░░█░░░█░░░█░ │
+# │ ░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░░░▀░░░▀░ │
+# └──────────────────────────────────────┘
 
 [general]
-import = [
-    "~/.config/alacritty/themes/themes/tokyo-night.toml"
-]
+live_config_reload = true
+import = [ "~/.config/alacritty/themes/dark.toml" ]
 
-#for video
-# size = 35.0
+[window]
+padding = { x = 10, y = 10 }
+opacity = 0.8
+
+[font]
+size = 9
+normal = { family = "JetBrainsMono NFP", style = "SemiBold" }
+bold = { family = "JetBrainsMono NFP", style = "ExtraBold" }
+italic = { family = "JetBrainsMono NFP", style = "SemiBold Italic" }
+bold_italic = { family = "JetBrainsMono NFP", style = "ExtraBold Italic" }
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+blink_timeout = 0
