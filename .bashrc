@@ -172,3 +172,4 @@ export CM_LAUNCHER=rofi
 
 #Zoxide Configuration
 eval "$(zoxide init bash)"
+_ZO_DOCTOR=0
