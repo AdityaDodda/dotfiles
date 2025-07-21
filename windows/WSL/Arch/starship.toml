@@ -44,6 +44,9 @@ $docker_context\
 [](fg:#5e81ac bg:#6272a4)\
 $time\
 [ ](fg:#6272a4)\
+\n
+$cmd_duration\
+$character\
 """
 #add_newline = false
 
@@ -81,8 +84,7 @@ format = '[ $symbol ($version) ]($style)'
 [python]
 symbol = " "
 style = "bg:#4c566a"
-format = '[ $symbol ($version) ($virtualenv) ]($style)'
-disabled = false
+format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
